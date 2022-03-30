@@ -1,71 +1,74 @@
 @font-face {
 	font-family: Cheltenham;
-	src: 	url('/fonts/cheltenham/cheltenham.woff2') format('woff2'),
-			url('/fonts/cheltenham/cheltenham.woff') format('woff'),
-			url('/fonts/cheltenham/cheltenham.ttf') format('truetype');
+	src: 	url('./assets/fonts/cheltenham/cheltenham.woff2') format('woff2'),
+			url('./assets/fonts/cheltenham/cheltenham.woff') format('woff'),
+			url('./assets/fonts/cheltenham/cheltenham.ttf') format('truetype');
 	font-style: normal;
 }
 
 @font-face {
 	font-family: Cheltenham;
-	src: 	url('/fonts/cheltenham/cheltenham-italic.woff2') format('woff2'),
-		 	url('/fonts/cheltenham/cheltenham-italic.woff') format('woff'),
-		 	url('/fonts/cheltenham/cheltenham-italic.ttf') format('truetype');
+	src: 	url('./assets/fonts/cheltenham/cheltenham-italic.woff2') format('woff2'),
+		 	url('./assets/fonts/cheltenham/cheltenham-italic.woff') format('woff'),
+		 	url('./assets/fonts/cheltenham/cheltenham-italic.ttf') format('truetype');
 	font-style: italic;
 }  
 
 @font-face {
 	font-family: Imperial;
-	src: 	url('/fonts/imperial/imperial-italic.woff2') format('woff2'),
-		 	url('/fonts/imperial/imperial-italic.woff') format('woff'),
-		 	url('/fonts/imperial/imperial-italic.ttf') format('truetype');
+	src: 	url('./assets/fonts/imperial/imperial-italic.woff2') format('woff2'),
+		 	url('./assets/fonts/imperial/imperial-italic.woff') format('woff'),
+		 	url('./assets/fonts/imperial/imperial-italic.ttf') format('truetype');
 	font-style: italic;
 	font-weight: 400;
 }
 
 @font-face {
 	font-family: Imperial;
-	src: 	url('/fonts/imperial/imperial.woff2') format('woff2'),
-			url('/fonts/imperial/imperial.woff') format('woff'),
-			url('/fonts/imperial/imperial.ttf') format('truetype');
+	src: 	url('./assets/fonts/imperial/imperial.woff2') format('woff2'),
+			url('./assets/fonts/imperial/imperial.woff') format('woff'),
+			url('./assets/fonts/imperial/imperial.ttf') format('truetype');
 	font-style: normal;
 	font-weight: 400;
 }
 
 @font-face {
 	font-family: Imperial;
-	src: 	url('/fonts/imperial/imperial-italic-bold.woff2') format('woff2'),
-			url('/fonts/imperial/imperial-italic-bold.woff') format('woff'),
-			url('/fonts/imperial/imperial-italic-bold.ttf') format('truetype');
+	src: 	url('./assets/fonts/imperial/imperial-italic-bold.woff2') format('woff2'),
+			url('./assets/fonts/imperial/imperial-italic-bold.woff') format('woff'),
+			url('./assets/fonts/imperial/imperial-italic-bold.ttf') format('truetype');
 	font-style: italic;
 	font-weight: 600;
 }
 
 @font-face {
 	font-family: Imperial;
-	src: 	url('/fonts/imperial/imperial-bold.woff2') format('woff2'),
-			url('/fonts/imperial/imperial-bold.woff') format('woff'),
-			url('/fonts/imperial/imperial-bold.ttf') format('truetype');
+	src: 	url('./assets/fonts/imperial/imperial-bold.woff2') format('woff2'),
+			url('./assets/fonts/imperial/imperial-bold.woff') format('woff'),
+			url('./assets/fonts/imperial/imperial-bold.ttf') format('truetype');
 	font-style: normal;
 	font-weight: 600;
 }	
 
 @font-face {
 	font-family: Franklin;
-	src: 	url('/fonts/franklin/franklin-italic.woff2') format('woff2'),
-			url('/fonts/franklin/franklin-italic.woff') format('woff'),
-			url('/fonts/franklin/franklin-italic.ttf') format('truetype');
+	src: 	url('./assets/fonts/franklin/franklin-italic.woff2') format('woff2'),
+			url('./assets/fonts/franklin/franklin-italic.woff') format('woff'),
+			url('./assets/fonts/franklin/franklin-italic.ttf') format('truetype');
 	font-style: italic;
 }
 	
 @font-face {
 	font-family: Franklin;
-	src: 	url('/fonts/franklin/franklin.woff2') format('woff2'),
-			url('/fonts/franklin/franklin.woff') format('woff'),
-			url('/fonts/franklin/franklin.ttf') format('truetype');
+	src: 	url('./assets/fonts/franklin/franklin.woff2') format('woff2'),
+			url('./assets/fonts/franklin/franklin.woff') format('woff'),
+			url('./assets/fonts/franklin/franklin.ttf') format('truetype');
 	font-style: normal;
 }
 
-.content {
-	font-family: Franklin
+@font-face {
+	font-family: Chomsky;
+	src: 	url('./assets/fonts/chomsky/chomsky.woff') format('woff'),
+			url('./assets/fonts/chomsky/chomsky.otf') format('otf');
+	font-style: normal;
 }
