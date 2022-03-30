@@ -7,6 +7,9 @@ import logo from "../assets/logo.svg";
 const Index: Component = () => {
   return (
     <div class={styles.main}>
+      <a href="https://docs.google.com/document/d/1HLnEaf1ykXZoJVvvVHdWEAN4O031wiLUwBJ3XybcQGo/edit">
+        <div class={styles.sources}>Works Cited</div>
+      </a>
       <div class={styles.title}>
         <div class={styles.logo}>Definitely Real News Paper</div>
         <div class={styles.topBreak} />
