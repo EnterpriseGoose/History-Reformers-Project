@@ -13,9 +13,21 @@ body {
   margin: 0;
 }
 
+.sources {
+    position: absolute;
+    padding: 0.2vw;
+    border-radius: 5px;
+    background-color: lightGray;
+    top: 2px;
+    left: 2px;
+    text-decoration: none;
+    color: black
+  }
+
 .title {
   margin-top: 0.5vw;
   margin-bottom: 0.5vw;
+  
   .logo {
     font-family: "Chomsky";
     width: 100%;
