@@ -6,10 +6,10 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   background-color: rgb(223, 208, 187);
-  background-image: url('../assets/parchment.webp');
+  background-image: url("../assets/parchment.webp");
   margin: 0;
 }
 
@@ -17,7 +17,7 @@ body {
   margin-top: 0.5vw;
   margin-bottom: 0.5vw;
   .logo {
-    font-family: 'Chomsky';
+    font-family: "Chomsky";
     width: 100%;
     padding: 0 5vw 0 0;
     text-align: center;
@@ -44,7 +44,7 @@ body {
     height: 1px;
     border-color: black;
     border-bottom-width: 1px;
-    border-top-width: 2px;;
+    border-top-width: 2px;
     border-top-style: solid;
     border-bottom-style: solid;
   }
@@ -56,35 +56,35 @@ body {
   margin: 0 2vw;
   font-size: calc(0.3vw + 10px);
   column-gap: 1vw;
-  font-family: 'Imperial';
+  font-family: "Imperial";
 }
 
 @media (max-width: 1500px) {
   .articles {
-    column-count: 5
+    column-count: 5;
   }
 }
 
 @media (max-width: 1200px) {
   .articles {
-    column-count: 4
+    column-count: 4;
   }
 }
 
 @media (max-width: 900px) {
   .articles {
-    column-count: 3
+    column-count: 3;
   }
 }
 
 @media (max-width: 600px) {
   .articles {
-    column-count: 2
+    column-count: 2;
   }
 }
 
 @media (max-width: 500px) {
   .articles {
-    column-count: 1
+    column-count: 1;
   }
 }
