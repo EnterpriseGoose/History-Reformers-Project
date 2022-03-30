@@ -1,6 +1,90 @@
-.main {
-  display: flex;
-  justify-content: center;
+body {
+  margin: 0;
 }
 
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(223, 208, 187);
+  background-image: url('../assets/parchment.webp');
+  margin: 0;
+}
 
+.title {
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+  .logo {
+    font-family: 'Chomsky';
+    width: 100%;
+    padding: 0 5vw 0 0;
+    text-align: center;
+    font-size: 4.5vw;
+  }
+  .topBreak {
+    margin-top: 3px;
+    height: 2px;
+    border-color: black;
+    border-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+  }
+  .desc {
+    font-size: 1vw;
+    line-height: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 500;
+  }
+  .bottomBreak {
+    margin-top: 3px;
+    height: 1px;
+    border-color: black;
+    border-bottom-width: 1px;
+    border-top-width: 2px;;
+    border-top-style: solid;
+    border-bottom-style: solid;
+  }
+}
+
+.articles {
+  column-count: 6;
+  column-rule: 1px solid black;
+  margin: 0 2vw;
+  font-size: calc(0.3vw + 10px);
+  column-gap: 1vw;
+  font-family: 'Imperial';
+}
+
+@media (max-width: 1500px) {
+  .articles {
+    column-count: 5
+  }
+}
+
+@media (max-width: 1200px) {
+  .articles {
+    column-count: 4
+  }
+}
+
+@media (max-width: 900px) {
+  .articles {
+    column-count: 3
+  }
+}
+
+@media (max-width: 600px) {
+  .articles {
+    column-count: 2
+  }
+}
+
+@media (max-width: 500px) {
+  .articles {
+    column-count: 1
+  }
+}
